@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../images/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu ul{
+    text-decoration-color: brown;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.menu .color1{
+    background-color: rgb(143, 143, 143);
+}
+.menu .color2{
+    background-color: rgb(122, 121, 121);
+}
+.menu .color3{
+    background-color: rgb(83, 82, 82);
+}
+.menu .color4{
+    background-color: rgb(80, 80, 79);
+}
+.menu .color5{
+    background-color: rgb(51, 51, 50);
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+
+}
+.icon{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 93%;
+    margin-top: 37%;
+}
+.descricao{
+    text-align: justify;
+    margin: 100px 100px;
+    width: 20%;
+    height: 300px;
+}
+.descricao p{
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+}
+.descricao img{
+    width: 100%;
+    height: 200px;
+}
+.contato{
+    display: flex;
+    align-items: center;
+}
+.contato img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.contato span{
+    display: inline-block;
+    color: rgb(167, 212, 174);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.produtos{
+    background-color: rgb(91, 91, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(143, 143, 143);
+    border-radius: 10px;
+}
+.produtos img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.produtos p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+.produtos p span{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    background-color: rgb(87, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    color: rgba(53, 44, 75, 0.664);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.help{
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(73, 72, 72);
+}
+.help label{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.help input{
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.help textarea{
+    display: block;
+    width: 50%;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.help button{
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(143, 143, 143);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.help p, h2{
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+.help h2{
+    margin-top: 0;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(117, 112, 112);
+}
+.titulo2{     
+    display: flex;
+    width: 80%;        
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px;
+    display: grid;
+}
